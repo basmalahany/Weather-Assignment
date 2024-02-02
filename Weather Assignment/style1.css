@@ -1,0 +1,233 @@
+html {
+    font-size: 14px;
+  }
+  body {
+    color: grey;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    background: grey;
+  }
+  hr {
+    border: none;
+    border-bottom: 1px solid grey;
+  }
+
+  
+  form textarea {
+    resize: vertical;
+  }
+  
+  textarea {
+    overflow: auto;
+    vertical-align: top;
+  }
+  a {
+    text-decoration: none;
+    color: lightskyblue;
+  }
+  
+  address {
+    font-style: normal;
+  }
+  
+  p {
+    margin-top: 0;
+  }
+  
+  table {
+    border-collapse: collapse;
+
+  }
+  
+  *,*:before,*:after {
+    box-sizing: border-box;
+  }
+  
+  
+  form textarea, form select ,form input {
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+  }
+  .site-header {
+    padding: 50px 0;
+  }
+  .site-header .branding {
+    float: left;
+  }
+  .site-header .branding .logo {
+    margin-right: 10px;
+  }
+  .site-header .branding .site-title {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-size: 1.1428571429em;
+    color: white;
+  }
+  .main-nav {
+    float: right;
+  }
+  .main-nav .menu-toggle .main-nav .menu {
+    vertical-align: middle;
+  }
+  .main-nav .menu-toggle {
+    background: none;
+    border: 2px solid transparent;
+    color: white;
+    padding: 18px;
+    border-radius: 40px;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    display: none;
+    outline: none;
+  }
+  .main-nav .menu {
+    list-style: none;
+    display: inline-block;
+  }
+  .main-nav .menu:after {
+    content: " ";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    height: 0;
+  }
+ 
+  .main-nav .menu .menu-item {
+    float: left;
+    margin-left: 10px;
+  }
+  .main-nav .menu .menu-item a {
+    padding: 5px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    color: white;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-weight: 398;
+  }
+  .main-nav .menu .menu-item.current-menu-item a,
+  .main-nav .menu .menu-item:hover a {
+    border-color: lightskyblue;
+    color: lightskyblue;
+  }
+  
+  .mobile-nav {
+    padding: 30px 0px;
+    display: none;
+  }
+
+  .mobile-nav .menu {
+    background: #323544;
+    list-style: none;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .mobile-nav .menu a {
+    padding: 18px;
+    display: block;
+    color: white;
+  }
+  .mobile-nav .menu .menu-item {
+    border-bottom: 1px solid #323544;
+  }
+  
+  .mobile-nav .menu .menu-item.current-menu-item a {
+    color: lightskyblue;
+  }
+  
+  .main {
+    background-size: cover;
+    padding: 70px 0;
+    min-height: 350px;
+  }
+  
+  .find-location {
+    position: relative;
+    margin-bottom: 70px;
+  }
+  .find-location input[type="text"] {
+    width: 100%;
+    padding: 18px;
+    background: #1e202b;
+    color: white;
+  }
+  .find-location input[type="submit"],
+  .find-location input[type="button"] {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+  }
+  
+  .forecast-container {
+    width: 100%;
+    background: #323544;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: -144px;
+    margin-bottom: 50px;
+  }
+  .forecast-container .forecast {
+    width: 33.33%;
+  }
+  .forecast-container {
+    background-color: #323544;
+  }
+  
+  
+  .forecast-container .forecast .forecast-header {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    font-weight: 398;
+  }
+  .forecast-container .forecast .forecast-icon {
+    height: 50px;
+  }
+  .forecast-container .forecast .forecast-content {
+    padding: 50px 18px 10px;
+    text-align: center;
+  }
+  
+  .forecast-container .forecast .forecast-content .degree {
+    font-size: 24px;
+    font-size: 1.7142857143em;
+    color: white;
+    font-weight: 700;
+  }
+  
+  .forecast-container .forecast .forecast-content {
+    font-size: 16px;
+    font-size: 1.1428571429em;
+  }
+  
+  .footer {
+    background: #323544;
+    padding: 50px 0;
+  }
+  .footer .subscribe-form {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  .footer .subscribe-form input[type="text"] {
+    padding: 18px 100px 18px 18px;
+    background: #1e202b;
+    width: 100%;
+    color: white;
+  }
+  .footer .subscribe-form input[type="submit"] {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+  }
+  
